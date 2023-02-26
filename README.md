@@ -1,6 +1,6 @@
 # PBS Weather
-Welcome, this appliation is a desktop app that is built in Python using Tkinter.
-You are able to inout your own API key that is stored securely on your local machine that will allow you to query the weather conditions for multiple areas.
+This is a simple weather app that will allow you to query the weather conditions for a given city and state. You will be able to save the city and state to a list that will be saved to your local machine.
+
 
 # Installation
 You will need to have Python 3.7 installed on your machine. You can download it [here](https://www.python.org/downloads/)
@@ -10,6 +10,14 @@ Once you have Python installed, you will need to install the following packages:
 - [os](https://docs.python.org/3/library/os.html)
 - [tkinter](https://docs.python.org/3/library/tkinter.html)
 - [customtkinter](https://pypi.org/project/customtkinter/)
+
+# Setup
+You will need to create a .env file in the root directory of the project. You will need to add the following to the .env file:
+```
+API_KEY=SomeKeyhere
+```
+You will need to get an API key from [Weatherapi.com](https://weatherapi.com). You will need to create an account and then you will be able to get an API key.s
+
 # Usage
 Once you have the project cloned and your .env file setup, you can run the main.py file and the GUI will open up. You will be able to enter in a city and state and it will query the weather conditions for that area. You will also be able to save the city and state to a list that will be saved to your local machine.
 
